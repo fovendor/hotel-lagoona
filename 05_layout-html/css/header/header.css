@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'MullerLight';
+  src: url('/05_layout-html/fonts/MullerLight.woff2') format('woff2'),
+    url('/05_layout-html/fonts/MullerLight.woff') format('woff');
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MullerRegular';
+  src: url('/05_layout-html/fonts/MullerRegular.woff2') format('woff2'),
+    url('/05_layout-html/fonts/MullerRegular.woff') format('woff');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerMedium';
+  src: url('/05_layout-html/fonts/MullerMedium.woff2') format('woff2'),
+    url('/05_layout-html/fonts/MullerMedium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerBold';
+  src: url('/05_layout-html/fonts/MullerBold.woff2') format('woff2'),
+    url('/05_layout-html/fonts/MullerBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header img {
+  max-width: 100%;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+}
+
+.header__bottom {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 37px;
+
+  border-right: 1px solid #E1E1E1;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.header__top-left {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.header__phone-number {
+  margin-left: 34px;
+
+  font-family: 'MullerMedium';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #666666;
+}
+
+.header__top-rigth {
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+.header__login {
+}
+.header__login-icon-img {
+  background-image: url("/05_layout-html/img/header/back.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.header__login-text {
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CC9933;
+}
+
+.header__nav {
+}
+
+.header__nav-list {
+  display: flex;
+  padding-left: 45px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #666666;
+
+  border-right: 1px solid #E1E1E1;
+
+}
+.header__nav-item:last-child {
+  margin-right: 57px;
+}
+
+.header__nav-item:not(:last-child) {
+  margin-right: 45px;
+}
+
+.header__btn {
+  margin-right: 65px;
+}
+
+.header__nav-contacts {
+}
+
+.main__button {
+  padding: 14px 20px 14px 20px;
+
+  color: #CC9933;
+  border: 1px solid #CC9933;
+  border-radius: 15px;
+
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CC9933;
+}
+
+.header__back-call-btn {
+  margin-left: 40px;
+}

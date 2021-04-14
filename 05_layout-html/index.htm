@@ -4,29 +4,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/header/header.css">
-  <link rel="stylesheet" href="css/main/main.css">
-  <link rel="stylesheet" href="css/main/specials.css">
-  <link rel="stylesheet" href="css/main/about.css">
-  <link rel="stylesheet" href="css/main/service.css">
-  <link rel="stylesheet" href="css/main/benefits.css">
-  <link rel="stylesheet" href="css/main/placement.css">
-  <link rel="stylesheet" href="css/main/want.css">
-  <link rel="stylesheet" href="css/main/contacts.css">
-  <link rel="stylesheet" href="css/footer/footer.css">
+  <link rel="stylesheet" href="/05_layout-html/css/normalize.css">
+  <link rel="stylesheet" href="/05_layout-html/css/header/header.css">
+  <link rel="stylesheet" href="/05_layout-html/css/main/main.css">
+  <link rel="stylesheet" href="/05_layout-html/css/main/specials.css">
+  <link rel="stylesheet" href="/05_layout-html/css/main/about.css">
+  <link rel="stylesheet" href="/05_layout-html/css/main/service.css">
+  <link rel="stylesheet" href="/05_layout-html/css/main/benefits.css">
+  <link rel="stylesheet" href="/05_layout-html/css/main/placement.css">
+  <link rel="stylesheet" href="/05_layout-html/css/main/want.css">
+  <link rel="stylesheet" href="/05_layout-html/css/main/contacts.css">
+  <link rel="stylesheet" href="/05_layout-html/css/footer/footer.css">
   <title>Lagoona</title>
 </head>
+
 <body>
   <header class="header">
-    <div class="container">
+    <div class="container header__container">
       <div class="header__top">
-        <a href="" class="header__logo">
-          <img src="img/header/logo.svg" alt="" class="header__logo-img">
-        </a>
-        <a href="tel:+74953225448" class="header__phone-number">+7 495 322 54 48</a>
-        <div class="header__login">
-          <a href="" class="header__login-icon">[-}]</a>
-          <a href="" class="header__login-text">Личный кабинет</a>
+        <div class="header__top-left">
+          <a href="" class="header__logo">
+            <img src="img/header/logo.svg" alt="" class="header__logo-img">
+          </a>
+          <a href="tel:+74953225448" class="header__phone-number">
+            +7 495 322 54 48
+          </a>
+        </div>
+        <div class="header__top-rigth">
+          <div class="header__login">
+            <a href="" class="header__login-icon">
+              <span class="header__login-icon-img"></span>
+            </a>
+            <a href="" class="header__login-text">
+              Личный кабинет
+            </a>
+          </div>
         </div>
       </div>
       <div class="header__bottom">
@@ -52,8 +64,11 @@
             </li>
           </ul>
         </nav>
-        <a href="" class="main__button header__want-btn">Хочу тур</a>
-        <a href="" class="main__button header__back-call-btn">Обратный звонок</a>
+        <div class="header__btn">
+          <a href="" class="main__button header__want-btn">Хочу тур</a>
+          <a href="" class="main__button header__back-call-btn">Обратный звонок</a>
+        </div>
+
       </div>
     </div>
   </header>
