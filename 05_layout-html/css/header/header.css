@@ -84,7 +84,7 @@
   height: 70px;
   align-items: center;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 28px;
 
   border-right: 1px solid #E1E1E1;
   background-color: #fff;
@@ -92,7 +92,7 @@
 }
 
 .header__phone-number {
-  margin-left: 34px;
+  margin-left: 40px;
 
   font-family: 'MullerMedium';
   font-size: 20px;
@@ -115,7 +115,9 @@
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 13px;
+  background-position-y: -1px;
+  background-position-x: 1px;
 }
 
 .header__login-text {
@@ -135,8 +137,7 @@
 .header__nav-list {
   display: flex;
   padding-left: 45px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  align-items: center;
 
   font-family: 'MullerRegular';
   font-size: 16px;
@@ -145,13 +146,10 @@
   line-height: 16px;
   letter-spacing: 0em;
   text-align: left;
-  color: #666666;
-
-  border-right: 1px solid #E1E1E1;
 }
 
-.header__nav-item:last-child {
-  margin-right: 57px;
+.header__nav-item a {
+  color: #666666;
 }
 
 .header__nav-item:not(:last-child) {
@@ -159,16 +157,17 @@
 }
 
 .header__btn {
-  margin-right: 65px;
-}
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+  padding-left: 57px;
+  border-left: 1px solid #E1E1E1;
 
-.header__nav-contacts {
+  height: 50px;
 }
 
 .main__button {
   padding: 12px 20px 12px 20px;
-
-  color: #CC9933;
   border: 1px solid #CC9933;
   border-radius: 10px;
 
@@ -182,6 +181,10 @@
   color: #CC9933;
 }
 
+.header__want-btn {
+  margin-right: 40px;
+}
+
 .header__back-call-btn {
-  margin-left: 40px;
+
 }
