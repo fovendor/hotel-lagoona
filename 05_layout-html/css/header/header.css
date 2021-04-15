@@ -65,6 +65,18 @@
 .header__top {
   display: flex;
   align-items: center;
+  margin-top: 30px;
+}
+
+.header__top-left {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header__top-rigth {
+  display: flex;
+  align-items: auto;
 }
 
 .header__bottom {
@@ -72,18 +84,11 @@
   height: 70px;
   align-items: center;
   justify-content: space-between;
-  margin-top: 37px;
+  margin-top: 30px;
 
   border-right: 1px solid #E1E1E1;
   background-color: #fff;
   border-radius: 15px;
-}
-
-.header__top-left {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-  margin-top: 30px;
 }
 
 .header__phone-number {
@@ -99,20 +104,24 @@
   color: #666666;
 }
 
-.header__top-rigth {
-  margin-left: auto;
-  margin-top: 30px;
+.header__login {
+  display: flex;
+  align-items: center;
 }
 
-.header__login {
-}
 .header__login-icon-img {
   background-image: url("/05_layout-html/img/header/back.png");
   background-size: 100%;
   background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .header__login-text {
+  padding-bottom: 0;
+  margin-left: 7px;
+
   font-family: 'MullerRegular';
   font-size: 16px;
   font-style: normal;
@@ -121,9 +130,6 @@
   letter-spacing: 0em;
   text-align: left;
   color: #CC9933;
-}
-
-.header__nav {
 }
 
 .header__nav-list {
@@ -142,8 +148,8 @@
   color: #666666;
 
   border-right: 1px solid #E1E1E1;
-
 }
+
 .header__nav-item:last-child {
   margin-right: 57px;
 }
@@ -160,11 +166,11 @@
 }
 
 .main__button {
-  padding: 14px 20px 14px 20px;
+  padding: 12px 20px 12px 20px;
 
   color: #CC9933;
   border: 1px solid #CC9933;
-  border-radius: 15px;
+  border-radius: 10px;
 
   font-family: 'MullerRegular';
   font-size: 16px;
