@@ -4,17 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/05_layout-html/css/normalize.css">
-  <link rel="stylesheet" href="/05_layout-html/css/header/header.css">
-  <link rel="stylesheet" href="/05_layout-html/css/main/main.css">
-  <link rel="stylesheet" href="/05_layout-html/css/main/specials.css">
-  <link rel="stylesheet" href="/05_layout-html/css/main/about.css">
-  <link rel="stylesheet" href="/05_layout-html/css/main/service.css">
-  <link rel="stylesheet" href="/05_layout-html/css/main/benefits.css">
-  <link rel="stylesheet" href="/05_layout-html/css/main/placement.css">
-  <link rel="stylesheet" href="/05_layout-html/css/main/want.css">
-  <link rel="stylesheet" href="/05_layout-html/css/main/contacts.css">
-  <link rel="stylesheet" href="/05_layout-html/css/footer/footer.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/header/header.css">
+  <link rel="stylesheet" href="/css/main/main.css">
+  <link rel="stylesheet" href="/css/main/specials.css">
+  <link rel="stylesheet" href="/css/main/about.css">
+  <link rel="stylesheet" href="/css/main/service.css">
+  <link rel="stylesheet" href="/css/main/benefits.css">
+  <link rel="stylesheet" href="/css/main/placement.css">
+  <link rel="stylesheet" href="/css/main/want.css">
+  <link rel="stylesheet" href="/css/main/contacts.css">
+  <link rel="stylesheet" href="/css/footer/footer.css">
+
   <title>Lagoona</title>
 </head>
 
@@ -72,43 +73,39 @@
     </div>
   </header>
   <main>
-    <section class="specials">
+<section class="specials">
       <div class="container">
         <h2 class="section-heading specials__heading">Спецпредложения</h2>
         <div class="specials__list">
-          <div class="specials__item specials__maldives">
-            <img src="img/specials/maldives.png" alt="" class="specials__img">
-            <div class="specials__item-heading specials__item-heading-maldives">
-              <b>Мальдивские острова</b>
+          <div class="specials__left">
+            <div class="specials__item specials__maldives">
+              <div class="specials__img specials__maldives-img">
+                <div class="specials__item-heading specials__item-heading-maldives">Мальдивские острова</div>
+                <div class="specials__item-price">от 55 000 р</div>
+                <a href="" class="specials__item-more-text">Подробнее <span class="specials__item-more-icon"></span> </a>
+              </div>
             </div>
-            <div class="specials__item-price">
-              от 55 000 р
+            <div class="specials__item specials__crete">
+              <div class="specials__img specials__crete-img">
+                <div class="specials__item-heading specials__item-heading-crete">Горящий тур <br> на остров Крит</div>
+                <div class="specials__item-price">от 30 000 р</div>
+                <a href="" class="specials__item-more-text">Подробнее <span class="specials__item-more-icon"></span></a>
+              </div>
             </div>
-            <a href="" class="specials__item-more-text">Подробнее</a><span class="specials__item-more-icon"> &gt; </span>
           </div>
-          <div class="specials__item specials__crete">
-            <img src="img/specials/crete.png" alt="" class="specials__img">
-            <div class="specials__item-heading specials__item-heading-crete">
-              <b>Горящий тур на остров Крит</b>
+          <div class="special__right">
+            <div class="specials__item specials__luxury">
+              <div class="specials__img specials__luxury-img">
+                <h1 class="specials__item-heading specials__item-heading-luxury">Номера категории люкс</h1>
+                <div class="specials__item-price specials__item-price-luxury">от 5000 р</div>
+                <a href="" class="specials__item-more-text-luxury">Подробнее <span class="specials__item-more-icon"></span></a>
+              </div>
             </div>
-            <div class="specials__item-price">
-              от 30 000 р
-            </div>
-            <a href="" class="specials__item-more">Подробнее</a><span class="specials__item-more-icon"> &gt; </span>
-          </div>
-          <div class="specials__item specials__luxury">
-            <img src="img/specials/luxury.png" alt="" class="specials__img">
-            <h1 class="specials__item-heading specials__item-heading-luxury">
-              <b>Номера категории люкс</b>
-            </h1>
-            <div class="specials__item-price">
-              от 5000 р
-            </div>
-            <a href="" class="specials__item-more">Подробнее</a><span class="specials__item-more-icon"> &gt; </span>
           </div>
         </div>
       </div>
     </section>
+
     <section class="about">
       <div class="container">
         <h2 class="section-heading about__heading">О нас</h2>
@@ -317,19 +314,19 @@
                 <span class="placement__night">ночь</span>
                 <ul class="placement__stars">
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-empty">
-                    <img src="/05_layout-html/img/placement/empty-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/empty-star.svg" alt="" class="placement__star-img">
                   </li>
                 </ul>
               </div>
@@ -352,19 +349,19 @@
                 <span class="placement__night">ночь</span>
                 <ul class="placement__stars">
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-empty">
-                    <img src="/05_layout-html/img/placement/empty-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/empty-star.svg" alt="" class="placement__star-img">
                   </li>
                 </ul>
               </div>
@@ -387,19 +384,19 @@
                 <span class="placement__night">ночь</span>
                 <ul class="placement__stars">
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-empty">
-                    <img src="/05_layout-html/img/placement/empty-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/empty-star.svg" alt="" class="placement__star-img">
                   </li>
                 </ul>
               </div>
@@ -422,19 +419,19 @@
                 <span class="placement__night">ночь</span>
                 <ul class="placement__stars">
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-empty">
-                    <img src="/05_layout-html/img/placement/empty-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/empty-star.svg" alt="" class="placement__star-img">
                   </li>
                 </ul>
               </div>
@@ -457,19 +454,19 @@
                 <span class="placement__night">ночь</span>
                 <ul class="placement__stars">
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-empty">
-                    <img src="/05_layout-html/img/placement/empty-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/empty-star.svg" alt="" class="placement__star-img">
                   </li>
                 </ul>
               </div>
@@ -492,19 +489,19 @@
                 <span class="placement__night">ночь</span>
                 <ul class="placement__stars">
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-empty">
-                    <img src="/05_layout-html/img/placement/empty-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/empty-star.svg" alt="" class="placement__star-img">
                   </li>
                 </ul>
               </div>
@@ -527,19 +524,19 @@
                 <span class="placement__night">ночь</span>
                 <ul class="placement__stars">
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-empty">
-                    <img src="/05_layout-html/img/placement/empty-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/empty-star.svg" alt="" class="placement__star-img">
                   </li>
                 </ul>
               </div>
@@ -562,19 +559,19 @@
                 <span class="placement__night">ночь</span>
                 <ul class="placement__stars">
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="Рейтинг отеля 4 из 5" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-full">
-                    <img src="/05_layout-html/img/placement/full-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/full-star.svg" alt="" class="placement__star-img">
                   </li>
                   <li class="placement__star-icon placement__star-icon-empty">
-                    <img src="/05_layout-html/img/placement/empty-star.svg" alt="" class="placement__star-img">
+                    <img src="/img/placement/empty-star.svg" alt="" class="placement__star-img">
                   </li>
                 </ul>
               </div>

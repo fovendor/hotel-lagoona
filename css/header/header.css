@@ -1,15 +1,15 @@
 @font-face {
   font-family: 'MullerLight';
-  src: url('/05_layout-html/fonts/MullerLight.woff2') format('woff2'),
-    url('/05_layout-html/fonts/MullerLight.woff') format('woff');
+  src: url('/fonts/MullerLight.woff2') format('woff2'),
+    url('/fonts/MullerLight.woff') format('woff');
   font-display: swap;
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'MullerRegular';
-  src: url('/05_layout-html/fonts/MullerRegular.woff2') format('woff2'),
-    url('/05_layout-html/fonts/MullerRegular.woff') format('woff');
+  src: url('/fonts/MullerRegular.woff2') format('woff2'),
+    url('/fonts/MullerRegular.woff') format('woff');
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -17,8 +17,8 @@
 
 @font-face {
   font-family: 'MullerMedium';
-  src: url('/05_layout-html/fonts/MullerMedium.woff2') format('woff2'),
-    url('/05_layout-html/fonts/MullerMedium.woff') format('woff');
+  src: url('/fonts/MullerMedium.woff2') format('woff2'),
+    url('/fonts/MullerMedium.woff') format('woff');
   font-display: swap;
   font-weight: 500;
   font-style: normal;
@@ -26,8 +26,8 @@
 
 @font-face {
   font-family: 'MullerBold';
-  src: url('/05_layout-html/fonts/MullerBold.woff2') format('woff2'),
-    url('/05_layout-html/fonts/MullerBold.woff') format('woff');
+  src: url('/fonts/MullerBold.woff2') format('woff2'),
+    url('/fonts/MullerBold.woff') format('woff');
   font-display: swap;
   font-weight: 700;
   font-style: normal;
@@ -65,7 +65,7 @@
 .header__top {
   display: flex;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 32px;
 }
 
 .header__top-left {
@@ -110,7 +110,7 @@
 }
 
 .header__login-icon-img {
-  background-image: url("/05_layout-html/img/header/back.png");
+  background-image: url("/img/header/back.png");
   background-size: 100%;
   background-repeat: no-repeat;
   justify-content: center;
@@ -183,8 +183,4 @@
 
 .header__want-btn {
   margin-right: 40px;
-}
-
-.header__back-call-btn {
-
 }
