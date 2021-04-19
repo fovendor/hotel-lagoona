@@ -14,12 +14,50 @@
   /**
  * 1. styles are set for common page elements.
  */
+ @font-face {
+  font-family: 'MullerLight';
+  src: url('/fonts/MullerLight.woff2') format('woff2'),
+    url('/fonts/MullerLight.woff') format('woff');
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MullerRegular';
+  src: url('/fonts/MullerRegular.woff2') format('woff2'),
+    url('/fonts/MullerRegular.woff') format('woff');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerMedium';
+  src: url('/fonts/MullerMedium.woff2') format('woff2'),
+    url('/fonts/MullerMedium.woff') format('woff');
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MullerBold';
+  src: url('/fonts/MullerBold.woff2') format('woff2'),
+    url('/fonts/MullerBold.woff') format('woff');
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
 
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   font-family: sans-serif;
   background-color: #E5E5E5;
+}
+
+a {
+  text-decoration: none;
 }
 
 .section-heading {
@@ -34,6 +72,22 @@ html {
   letter-spacing: 0em;
   text-align: left;
   color: #333333;
+}
+
+.item__gold-text {
+  display: flex;
+
+  margin: 0;
+
+  font-family: 'MullerRegular';
+  text-align: left;
+  color: #FFCC66;
+}
+
+.item__gold-icon {
+  border-top: 2px solid #FFCC66;
+  border-right: 2px solid #FFCC66;
+  transform: rotate(45deg);
 }
 
 /* Sections

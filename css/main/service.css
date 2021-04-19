@@ -1,0 +1,129 @@
+.servise__heading {
+  margin-top: 58px;
+  margin-left: 39px;
+}
+
+.container {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.specials a {
+  text-decoration: none;
+}
+
+.servise__list li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.servise__list {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 0;
+  padding: 0;
+}
+
+.servise__item:nth-child(odd) {
+  margin-right: 23px;
+  margin-bottom: 23px;
+}
+
+.servise__item {
+  width: 573px;
+  height: 330px;
+
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.servise__item-heading {
+  display: flex;
+  margin: 0;
+
+  font-family: 'MullerMedium';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #CC9933;
+}
+
+.servise__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-radius: 15px 15px 0px 0px;
+
+  padding-left: 40px;
+  padding-top: 41px;
+}
+
+.servise__exlusive-img {
+  height: 165px;
+  width: 573px;
+
+  background-image: url("/img/service/exclusive.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.servise__rent-img {
+  height: 165px;
+  width: 573px;
+
+  background-image: url("/img/service/rent.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.servise__spa-img {
+  height: 165px;
+  width: 573px;
+
+  background-image: url("/img/service/spa.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.servise__parking-img {
+  height: 165px;
+  width: 573px;
+
+  background-image: url("/img/service/parking.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.servise__text {
+  padding-top: 37px;
+  padding-left: 45px;
+
+  font-family: 'MullerRegular';
+  text-align: left;
+  color: #d1dbdc;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.servise__item-text {
+  margin-top: 7px;
+  width: 402px;
+
+  color: #000;
+}
+
+.service__item-more-icon {
+  width: 12px;
+  height: 12px;
+  padding: 5px;
+  margin-top: 3px;
+  margin-left: 3px;
+
+  border-top: 2px solid #CC9933;
+  border-right: 2px solid #CC9933;
+  transform: rotate(45deg);
+}

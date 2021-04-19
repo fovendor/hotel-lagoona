@@ -1,10 +1,5 @@
-.specials a {
-  text-decoration: none;
-}
-
 .specials__list {
   display: flex;
-
 }
 
 .specials__item-heading {
@@ -72,17 +67,12 @@
 }
 
 .specials__item-more-text-luxury {
-  display: flex;
-
   width: 100px;
   margin-top: 45px;
   margin-bottom: 0px;
 
-  font-family: 'MullerRegular';
-  text-align: left;
   font-size: 16px;
   line-height: 16px;
-  color: #FFCC66;
 }
 
 .specials__img {
@@ -96,7 +86,6 @@
   padding-top: 41px;
   border-radius: 15px;
 }
-
 
 .specials__maldives-img {
   display: flex;
@@ -137,17 +126,12 @@
 }
 
 .specials__item-more-text {
-  display: flex;
-
   width: 100px;
   margin-top: 46px;
   margin-bottom: 45px;
 
-  font-family: 'MullerRegular';
-  text-align: left;
   font-size: 16px;
   line-height: 16px;
-  color: #FFCC66;
 }
 
 .specials__item-more-icon {
@@ -155,8 +139,4 @@
   height: 12px;
   padding: 5px;
   margin-top: 2px;
-
-  border-top: 2px solid #FFCC66;
-  border-right: 2px solid #FFCC66;
-  transform: rotate(45deg);
 }
