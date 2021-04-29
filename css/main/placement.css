@@ -1,14 +1,19 @@
+/* Описание контейнера и его габаритов */
 .container {
   max-width: 1170px;
   margin-right: auto;
   margin-left: auto;
 }
-
+/* --- */
+/* Описание заголовка секции */
+/* --- */
 .placement__heading {
   margin-top: 48px;
   margin-bottom: 30px;
 }
-
+/* --- */
+/* Описание строк с блоками вариантов размещения */
+/* --- */
 .placement__list-top {
   display: flex;
   justify-content: space-between;
@@ -32,6 +37,22 @@
   margin: 0;
   padding: 0;
 }
+/* --- */
+/* Описание отдельных блоков с вариантами размещения с их содержимым */
+/* Если при наведении курсора потребуется применить к какому-то отдельно взятому блоку некий стиль, то */
+/* в каждом блоке добавлен класс placement__option-n, где n-порядковый номер блока */
+/* --- */
+.placement__option {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 23px;
+  width: 374px;
+  height: 440px;
+
+  border-radius: 15px;
+  background-color: #fff;
+}
 
 .placement__info {
   display: flex;
@@ -49,109 +70,10 @@
   color: #000;
 }
 
-.placement__info-9 {
-  display: flex;
-  justify-content: flex-end;
-
-  margin: 0;
-
-  font-family: 'MullerMedium';
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
-  color: #000;
-}
-
-.placement__view-all-link {
-  margin-bottom: 36px;
-  margin-left: 55px;
-  margin-right: 53px;
-  color: #fff;
-}
-
-.placement__view-all-icon {
-  width: 12px;
-  height: 12px;
-  padding: 5px;
-  margin-top: 3px;
-  margin-left: 3px;
-
-  border-top: 2px solid #fff;
-  border-right: 2px solid #fff;
-  transform: rotate(45deg);
-}
-
-.placement__text {
-  display: flex;
-  justify-content: space-between;
-}
-
-.placement__stars {
-  display: flex;
-  list-style-type: none;
-
-  margin: 0;
-  padding: 0;
-}
-
-.placement__option {
-  display: flex;
-  flex-direction: column;
-
-  margin-bottom: 23px;
-  width: 374px;
-  height: 440px;
-
-  border-radius: 15px;
-  background-color: #fff;
-}
-
 .placement__row-top {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-}
-
-.placement__from-text {
-  margin-right: 4px;
-
-  font-family: 'MullerLight';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color: #a0a0a0;
-}
-
-.placement__price-text {
-  margin-right: 4px;
-
-  font-family: 'MullerBold';
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 16px;
-  color: #000;
-}
-
-.placement__slash {
-  margin-right: 4px;
-
-  font-family: 'MullerRegular';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color: #000;
-}
-
-.placement__night {
-  font-family: 'MullerRegular';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
-  color: #000;
-}
-
-.placement__star-icon:not(:last-child) {
-  margin-right: 6px;
 }
 
 .placement__row-center {
@@ -174,12 +96,17 @@
   color: #a0a0a0;
 }
 
-.placement__room-btn {
+.placement__info-9 {
   display: flex;
+  justify-content: flex-end;
 
-  margin-top: 20px;
-  width: 100px;
-  height: 42px;
+  margin: 0;
+
+  font-family: 'MullerMedium';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
 }
 
 .placement__img {
@@ -244,4 +171,89 @@
   background-image: url("/img/placement/9.png");
   background-repeat: no-repeat;
 }
+/* --- */
+/* Описание стилей всей мелочи в блоках */
+/* --- */
 
+.placement__room-btn {
+  display: flex;
+
+  margin-top: 20px;
+  width: 100px;
+  height: 42px;
+}
+
+.placement__view-all-link {
+  margin-bottom: 36px;
+  margin-left: 55px;
+  margin-right: 53px;
+
+  color: #fff;
+}
+
+.placement__view-all-icon {
+  width: 12px;
+  height: 12px;
+  padding: 5px;
+  margin-top: 3px;
+  margin-left: 3px;
+
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+}
+
+.placement__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.placement__stars {
+  display: flex;
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.placement__from-text {
+  margin-right: 4px;
+
+  font-family: 'MullerLight';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #a0a0a0;
+}
+
+.placement__price-text {
+  margin-right: 4px;
+
+  font-family: 'MullerBold';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 16px;
+  color: #000;
+}
+
+.placement__slash {
+  margin-right: 4px;
+
+  font-family: 'MullerRegular';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+}
+
+.placement__night {
+  font-family: 'MullerRegular';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+}
+
+.placement__star-icon:not(:last-child) {
+  margin-right: 6px;
+}
