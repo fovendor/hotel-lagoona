@@ -1,0 +1,169 @@
+.container {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 341px;
+  margin-top: 20px;
+  padding: 44px 51px 44px 52px;
+
+  border-radius: 15px;
+  background-color: #333333;
+
+  /* height: 25px;
+  width: 25px;
+  display: block;
+  border-radius: 50%;
+  background-image: url("/img/footer/facebook.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center; */
+}
+
+.footer__left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  width: 320px;
+
+  color: #fff;
+  font-family: 'MullerLight';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.footer__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+  margin-right: 12%;
+  transform: translate(1px, -7px);
+
+  color: #fff;
+  font-family: 'MullerLight';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer__tel-links {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'MullerLight';
+  font-style: normal;
+  font-size: 16px;
+  /* line-height: 28px; */
+  color: #CC9933;
+}
+
+.footer__mail-links {
+  display: flex;
+  flex-direction: column;
+
+  font-family: 'MullerLight';
+  font-style: normal;
+  font-size: 16px;
+  /* line-height: 28px; */
+  color: #CC9933;
+}
+
+.footer__adress-text {
+  font-family: 'MullerLight';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.footer__terms-use-text {
+  font-family: 'MullerLight';
+  font-style: normal;
+  font-size: 16px;
+  color: #CC9933;
+}
+
+.footer__social-item {
+  list-style-type: none;
+}
+
+.footer__social-item {
+  margin-bottom: 20px;
+  border-radius: 50%;
+  /* border: 1px solid white; */
+}
+
+.footer__social-tripadvisor {
+  height: 25px;
+  width: 25px;
+  display: block;
+  border-radius: 50%;
+  background-image: url("/img/footer/tripadvisor.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.footer__social-twitter {
+  height: 25px;
+  width: 25px;
+  display: block;
+  border-radius: 50%;
+  background-image: url("/img/footer/twitter.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.footer__social-facebook {
+  height: 25px;
+  width: 25px;
+  display: block;
+  border-radius: 50%;
+  background-image: url("/img/footer/facebook.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.footer__social-vkontakte {
+  height: 25px;
+  width: 25px;
+  display: block;
+  border-radius: 50%;
+  background-image: url("/img/footer/social.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.footer__social-instagram {
+  height: 25px;
+  width: 25px;
+  display: block;
+  border-radius: 50%;
+  background-image: url("/img/footer/instagram.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+
+/* font-family: 'MullerBold';
+font-family: 'MullerRegular';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #C4C4C4;
+
+
+#CC9933
+
+cc9933
+*/
