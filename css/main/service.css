@@ -21,7 +21,6 @@
 .servise__list {
   display: flex;
   flex-wrap: wrap;
-
   margin: 0;
   padding: 0;
 }
@@ -51,44 +50,33 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  border-radius: 15px 15px 0px 0px;
-
   padding-left: 40px;
   padding-top: 41px;
-}
-
-.servise__exlusive-img {
   height: 165px;
   width: 573px;
 
+  border-radius: 15px 15px 0px 0px;
+}
+
+.servise__exlusive-img {
   background-image: url("/img/service/exclusive.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .servise__rent-img {
-  height: 165px;
-  width: 573px;
-
   background-image: url("/img/service/rent.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .servise__spa-img {
-  height: 165px;
-  width: 573px;
-
   background-image: url("/img/service/spa.png");
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
 .servise__parking-img {
-  height: 165px;
-  width: 573px;
-
   background-image: url("/img/service/parking.png");
   background-size: 100%;
   background-repeat: no-repeat;

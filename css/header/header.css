@@ -1,3 +1,6 @@
+/*  */
+/* общие стили для всего header  */
+/*  */
 * {
   box-sizing: border-box;
 }
@@ -6,6 +9,11 @@
   max-width: 1170px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
 }
 
 .header a {
@@ -21,16 +29,15 @@
 .header img {
   max-width: 100%;
 }
-
-.header__container {
-  display: flex;
-  flex-direction: column;
-}
-
+/*  */
+/* верхняя часть header */
+/*  */
 .header__top {
   display: flex;
   align-items: center;
-  margin-top: 32px;
+  margin-top: 31px;
+
+  transform: translate(0.5px, 0.5px);
 }
 
 .header__top-left {
@@ -42,18 +49,6 @@
 .header__top-rigth {
   display: flex;
   align-items: auto;
-}
-
-.header__bottom {
-  display: flex;
-  height: 70px;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 28px;
-
-  border-right: 1px solid #E1E1E1;
-  background-color: #fff;
-  border-radius: 15px;
 }
 
 .header__phone-number {
@@ -68,6 +63,21 @@
   text-align: left;
   color: #666666;
 }
+/*  */
+/* нижняя часть header */
+/*  */
+.header__bottom {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 27px;
+  padding: 0px 43px 0px 46px;
+
+  border-right: 1px solid #E1E1E1;
+  background-color: #fff;
+  border-radius: 15px;
+}
 
 .header__login {
   display: flex;
@@ -76,13 +86,12 @@
 
 .header__login-icon-img {
   background-image: url("/img/header/back.png");
-  background-size: 100%;
+  background-size: 95%;
   background-repeat: no-repeat;
   justify-content: center;
   align-items: center;
   padding: 13px;
-  background-position-y: -1px;
-  background-position-x: 1px;
+  transform: translate(3px, -1px);
 }
 
 .header__login-text {
@@ -98,12 +107,17 @@
   text-align: left;
   color: #CC9933;
 }
-
+/*  */
+/* верхнее меню и блок с кнопками */
+/*  */
 .header__nav-list {
   display: flex;
-  padding-left: 45px;
+  margin: 0;
+  padding: 0;
+  padding: 17.5px 0px 17px 0px;
   align-items: center;
 
+  border-right: 1px solid #E1E1E1;
   font-family: 'MullerRegular';
   font-size: 16px;
   font-style: normal;
@@ -118,21 +132,20 @@
 }
 
 .header__nav-item:not(:last-child) {
-  margin-right: 45px;
+  margin-right: 45.4px;
+}
+
+.header__nav-item:last-child {
+  padding-right: 56px;
 }
 
 .header__btn {
   display: flex;
   align-items: center;
-  margin-right: 45px;
-  padding-left: 57px;
-  border-left: 1px solid #E1E1E1;
-
   height: 50px;
 }
 
 .main__button {
-  padding: 12px 20px 12px 20px;
   border: 1px solid #CC9933;
   border-radius: 10px;
 
@@ -147,5 +160,14 @@
 }
 
 .header__want-btn {
+  width: 107px;
+  height: 42px;
   margin-right: 40px;
+  padding: 12.5px 18px 10px 19px;
+}
+
+.header__back-call-btn {
+  width: 177px;
+  height: 42px;
+  padding: 12.5px 15px 13px 19px;
 }

@@ -1,12 +1,9 @@
-/* Описание контейнера и его габаритов */
 .container {
   max-width: 1170px;
   margin-right: auto;
   margin-left: auto;
 }
-/* --- */
-/* Описание заголовка секции */
-/* --- */
+
 .placement__heading {
   margin-top: 48px;
   margin-bottom: 30px;
@@ -17,7 +14,6 @@
 .placement__list-top {
   display: flex;
   justify-content: space-between;
-
   margin: 0;
   padding: 0;
 }
@@ -25,7 +21,6 @@
 .placement__list-center {
   display: flex;
   justify-content: space-between;
-
   margin: 0;
   padding: 0;
 }
@@ -33,7 +28,6 @@
 .placement__list-bottom {
   display: flex;
   justify-content: space-between;
-
   margin: 0;
   padding: 0;
 }
@@ -45,7 +39,6 @@
 .placement__option {
   display: flex;
   flex-direction: column;
-
   margin-bottom: 23px;
   width: 374px;
   height: 440px;
@@ -57,7 +50,6 @@
 .placement__info {
   display: flex;
   flex-direction: column;
-
   margin: 0;
   margin-top: 37px;
   margin-left: 45px;
@@ -94,19 +86,6 @@
   font-size: 16px;
   line-height: 16px;
   color: #a0a0a0;
-}
-
-.placement__info-9 {
-  display: flex;
-  justify-content: flex-end;
-
-  margin: 0;
-
-  font-family: 'MullerMedium';
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
-  color: #000;
 }
 
 .placement__img {
@@ -161,10 +140,23 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
+/*  */
+/* большой блок без описания */
+/*  */
+.placement__info-9 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+
+  font-family: 'MullerMedium';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+}
 
 .placement__img-9 {
   display: flex;
-
   width: 374px;
   height: 440px;
 
@@ -174,10 +166,10 @@
 /* --- */
 /* Описание стилей всей мелочи в блоках */
 /* --- */
-
 .placement__room-btn {
   display: flex;
 
+  padding: 13px 20px 12px 20px;
   margin-top: 20px;
   width: 100px;
   height: 42px;

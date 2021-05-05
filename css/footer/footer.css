@@ -9,19 +9,15 @@
   justify-content: space-between;
   height: 341px;
   margin-top: 20px;
-  padding: 44px 51px 44px 52px;
+  padding: 44px 51px 44px 54px;
 
   border-radius: 15px;
   background-color: #333333;
 
-  /* height: 25px;
-  width: 25px;
-  display: block;
-  border-radius: 50%;
-  background-image: url("/img/footer/facebook.svg");
+  background-image: url("/img/footer/sun.svg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center; */
+  background-size: 21.7%;
+  background-position: 740px 113px;
 }
 
 .footer__left {
@@ -44,13 +40,17 @@
   justify-content: space-between;
   height: 70%;
   margin-right: 12%;
-  transform: translate(1px, -7px);
+  transform: translate(4px, -7px);
 
   color: #fff;
   font-family: 'MullerLight';
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
+}
+
+.footer__social-list {
+  margin: 0;
 }
 
 .footer__tel-links {
@@ -67,11 +67,11 @@
 .footer__mail-links {
   display: flex;
   flex-direction: column;
+  padding-top: 1px;
 
   font-family: 'MullerLight';
   font-style: normal;
   font-size: 16px;
-  /* line-height: 28px; */
   color: #CC9933;
 }
 
@@ -80,6 +80,8 @@
   font-style: normal;
   font-size: 16px;
   line-height: 30px;
+
+  padding-bottom: 5px;
 }
 
 .footer__terms-use-text {
@@ -94,20 +96,12 @@
 }
 
 .footer__social-item {
-  margin-bottom: 20px;
-  border-radius: 50%;
-  /* border: 1px solid white; */
-}
-
-.footer__social-tripadvisor {
-  height: 25px;
-  width: 25px;
   display: block;
   border-radius: 50%;
-  background-image: url("/img/footer/tripadvisor.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+
+  height: 25px;
+  width: 25px;
+  margin-bottom: 20px;
 }
 
 .footer__social-twitter {
@@ -115,10 +109,6 @@
   width: 25px;
   display: block;
   border-radius: 50%;
-  background-image: url("/img/footer/twitter.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
 }
 
 .footer__social-facebook {
@@ -126,10 +116,6 @@
   width: 25px;
   display: block;
   border-radius: 50%;
-  background-image: url("/img/footer/facebook.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
 }
 
 .footer__social-vkontakte {
@@ -137,10 +123,6 @@
   width: 25px;
   display: block;
   border-radius: 50%;
-  background-image: url("/img/footer/social.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
 }
 
 .footer__social-instagram {
@@ -148,22 +130,12 @@
   width: 25px;
   display: block;
   border-radius: 50%;
-  background-image: url("/img/footer/instagram.svg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
 }
 
+.footer__icon-path {
+  fill: #999999;
+}
 
-/* font-family: 'MullerBold';
-font-family: 'MullerRegular';
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #C4C4C4;
-
-
-#CC9933
-
-cc9933
-*/
+.footer__social-link:hover path {
+  fill: #fff;
+}
