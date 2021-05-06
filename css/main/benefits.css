@@ -32,8 +32,10 @@
 }
 
 .benefits__element {
+  display: flex;
+  flex-direction: column;
   width: 275px;
-  height: 275px;
+  min-height: 275px;
   padding-left: 45px;
   padding-top: 40px;
   padding-right: 42px;
@@ -46,6 +48,10 @@
 
 .benefits__element:not(:last-child) {
   margin-right: 23px;
+  margin-bottom: 23px;
+}
+
+.benefits__element:last-child {
   margin-bottom: 23px;
 }
 

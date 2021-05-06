@@ -32,10 +32,15 @@
 
 .servise__item {
   width: 573px;
-  height: 330px;
+  min-height: 330px;
 
   border-radius: 15px;
   background-color: #fff;
+}
+
+.servise__item:nth-child(even) {
+  min-height: 330px;
+  margin-bottom: 23px;
 }
 
 .servise__item-heading {

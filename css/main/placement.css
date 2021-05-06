@@ -41,7 +41,7 @@
   flex-direction: column;
   margin-bottom: 23px;
   width: 374px;
-  height: 440px;
+  min-height: 440px;
 
   border-radius: 15px;
   background-color: #fff;
