@@ -633,29 +633,34 @@
           <h2 class="section-heading want__heading">Хочу тур</h2>
             <form action="https://jsonplaceholder.typicode.com/posts" autocomplete method="POST" class="want__form">
               <div class="want__input want__departure-sity">
-                <label for="sity">Город вылета</label>
-                <input type="text" name="departure-sity" placeholder="Санкт-Петербург" class="input" id="sity">
+                <label class="want__label" for="sity">Город вылета</label>
+                <select name="departure-sity" class="want__select-fill" id="sity">
+                  <option value="">Санкт-Петербург</option>
+                  <option value="">Нью-Йорк</option>
+                  <option value="">Бобруйск</option>
+                </select>
               </div>
               <div class="want__input want__country">
-                <label for="country">Страна</label>
-                <input type="text" name="country" placeholder="Австралия" class="input" id="country">
+                <label class="want__label" for="country">Страна</label>
+                <select name="country" class="want__select-fill" id="country">
+                  <option value="">Австралия</option>
+                  <option value="">Россия</option>
+                  <option value="">Новая Зеландия</option>
+                </select>
               </div>
               <div class="want__input want__arrival-date">
-                <label for="sity">Город вылета</label>
-                <input type="text" name="arrival-date" placeholder="18.10.21" class="input" id="date">
+                <label class="want__label" for="date">Дата прибытия</label>
+                <input type="date" value="2021-10-18" name="arrival-date" placeholder="18.10.21" class="want__input-fill" id="date">
               </div>
-              <div class="want__input want__arrival-date">
-                <label for="sity">Город вылета</label>
-                <input type="text" name="departure-sity" placeholder="Санкт-Петербург" class="input" id="sity">
+              <div class="want__input want__night-count">
+                <label class="want__label" for="night">Ночей</label>
+                <input type="number" name="night-count" placeholder="6" class="want__input-fill want__border-fill" id="night">
               </div>
-              <div class="want__input want__departure-sity">
-                <label for="sity">Город вылета</label>
-                <input type="text" name="departure-sity" placeholder="Санкт-Петербург" class="input" id="sity">
+              <div class="want__input want__tourists-count">
+                <label class="want__label" for="tourists">Туристы</label>
+                <input type="number" name="tourists-count" placeholder="2" class="want__input-fill want__border-fill" id="tourists">
               </div>
-              <div class="want__input want__departure-sity">
-                <label for="sity">Город вылета</label>
-                <input type="text" name="departure-sity" placeholder="Санкт-Петербург" class="input" id="sity">
-              </div>
+              <a href="" class="main__button want__find-btn">Найти</a>
             </form>
         </div>
       </div>

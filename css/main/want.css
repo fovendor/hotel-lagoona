@@ -6,7 +6,7 @@
 }
 
 .want__heading {
-  margin-bottom: 20px;
+  margin: 39px 0px 19px -4px;
 }
 
 .want__wrapper {
@@ -21,12 +21,99 @@
 
 .want__form {
   display: flex;
+  justify-content: space-between;
+  width: 1080px;
+  height: 106px;
+
+  padding: 28px 28px 28px 28px;
+
+  background: #fff;
+  border-radius: 15px;
 }
 
 .want__input {
   display: flex;
   flex-direction: column;
-  border-right: 1px solid black;
-  width: 200px;
-  padding-right: 40px;
+  justify-content: space-between;
+  padding-right: 20px;
+
+  border-right: 1px solid #CCCCCC;
+}
+
+::placeholder {
+  color: black;
+}
+
+.want__date-inline {
+  display: flex;
+  flex-direction: row;
+}
+
+.want__departure-sity {
+  width: 190px;
+}
+
+.want__country {
+  width: 190px;
+}
+
+.want__arrival-date {
+  width: 160px;
+}
+
+.want__night-count {
+  width: 140px;
+}
+
+.want__tourists-count {
+  width: 140px;
+}
+
+.want__find-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 42px;
+}
+
+.want__select-fill {
+  padding-bottom: 6px;
+  display: inline-block;
+  min-width: 50px;
+
+  border: 0;
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  font-style: normal;
+  line-height: 16px;
+  text-align: left;
+  color: #000;
+}
+
+.want__input-fill {
+  padding-bottom: 6px;
+  display: inline-block;
+  min-width: 50px;
+
+  border: 0;
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  font-style: normal;
+  line-height: 16px;
+  text-align: left;
+  color: #000;
+}
+
+.want__border-fill {
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.want__label {
+  font-family: 'MullerRegular';
+  font-size: 12px;
+  font-style: normal;
+  line-height: 12px;
+  text-align: left;
+  color: #000;
 }
