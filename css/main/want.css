@@ -1,0 +1,32 @@
+.container {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 70px;
+}
+
+.want__heading {
+  margin-bottom: 20px;
+}
+
+.want__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0px 45px 70px 45px;
+  border-radius: 15px;
+
+  background-color: #E9E9E9;
+}
+
+.want__form {
+  display: flex;
+}
+
+.want__input {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid black;
+  width: 200px;
+  padding-right: 40px;
+}
