@@ -71,3 +71,23 @@ a {
   border-right: 2px solid #FFCC66;
   transform: rotate(45deg);
 }
+
+.main__button {
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #CC9933;
+  transition: 0.2s;
+}
+
+.main__button:hover {
+  background-color: #CC9933;
+  color: #fff;
+}

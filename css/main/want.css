@@ -76,6 +76,9 @@
   justify-content: center;
   width: 110px;
   height: 42px;
+
+  background-color: #fff;
+  cursor: pointer;
 }
 
 .want__select-fill {
