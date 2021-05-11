@@ -1,0 +1,251 @@
+.container {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.placement__heading {
+  margin-top: 48px;
+  margin-bottom: 30px;
+}
+/* --- */
+/* Описание строк с блоками вариантов размещения */
+/* --- */
+.placement__list-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.placement__list-center {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.placement__list-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+/* --- */
+/* Описание отдельных блоков с вариантами размещения с их содержимым */
+/* Если при наведении курсора потребуется применить к какому-то отдельно взятому блоку некий стиль, то */
+/* в каждом блоке добавлен класс placement__option-n, где n-порядковый номер блока */
+/* --- */
+.placement__option {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 23px;
+  width: 374px;
+  min-height: 440px;
+
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.placement__info {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-top: 37px;
+  margin-left: 45px;
+  margin-right: 46px;
+
+  font-family: 'MullerMedium';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+}
+
+.placement__row-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.placement__row-center {
+  margin-top: 15px;
+
+  font-family: 'MullerRegular';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+}
+
+.placement__row-bottom {
+  margin-top: 16px;
+
+  font-family: 'MullerRegular';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #a0a0a0;
+}
+
+.placement__img {
+  height: 217px;
+  width: 374px;
+}
+
+.placement__img-1{
+  background-image: url("/img/placement/1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.placement__img-2 {
+  background-image: url("/img/placement/2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.placement__img-3 {
+  background-image: url("/img/placement/3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.placement__img-4 {
+  background-image: url("/img/placement/4.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.placement__img-5 {
+  background-image: url("/img/placement/5.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.placement__img-6 {
+  background-image: url("/img/placement/6.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.placement__img-7 {
+  background-image: url("/img/placement/7.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.placement__img-8 {
+  background-image: url("/img/placement/8.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/*  */
+/* большой блок без описания */
+/*  */
+.placement__info-9 {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+
+  font-family: 'MullerMedium';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000;
+}
+
+.placement__img-9 {
+  display: flex;
+  width: 374px;
+  height: 440px;
+
+  background-image: url("/img/placement/9.png");
+  background-repeat: no-repeat;
+}
+/* --- */
+/* Описание стилей всей мелочи в блоках */
+/* --- */
+.placement__room-btn {
+  display: flex;
+
+  padding: 13px 20px 12px 20px;
+  margin-top: 20px;
+  width: 100px;
+  height: 42px;
+}
+
+.placement__view-all-link {
+  margin-bottom: 36px;
+  margin-left: 55px;
+  margin-right: 53px;
+
+  color: #fff;
+}
+
+.placement__view-all-icon {
+  width: 12px;
+  height: 12px;
+  padding: 5px;
+  margin-top: 3px;
+  margin-left: 3px;
+
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  transform: rotate(45deg);
+}
+
+.placement__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.placement__stars {
+  display: flex;
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.placement__from-text {
+  margin-right: 4px;
+
+  font-family: 'MullerLight';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #a0a0a0;
+}
+
+.placement__price-text {
+  margin-right: 4px;
+
+  font-family: 'MullerBold';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 16px;
+  color: #000;
+}
+
+.placement__slash {
+  margin-right: 4px;
+
+  font-family: 'MullerRegular';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+}
+
+.placement__night {
+  font-family: 'MullerRegular';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000;
+}
+
+.placement__star-icon:not(:last-child) {
+  margin-right: 6px;
+}
