@@ -1,0 +1,95 @@
+.container {
+  max-width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contacts__heading {
+  margin-bottom: 26px;
+}
+
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 44px 44px 46px 46px;
+  border-radius: 15px;
+
+  background-color: #fff;
+}
+
+.contacts__right {
+  font-size: 0;
+  margin-left: 47px;
+}
+
+.contacts__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contacts__info {
+  transform: translate(0, -25px);
+  margin: 0;
+
+  border-radius: 15px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.contacts__left-text {
+  display: table-cell;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  padding-top: 25px;
+
+  border-bottom: 1px solid #ccc;
+  font-family: 'MullerBold';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+}
+
+.contacts__right-text {
+  display: table-cell;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+  padding-left: 47px;
+  padding-bottom: 23px;
+  padding-top: 25px;
+
+  border-bottom: 1px solid #ccc;
+  font-family: 'MullerRegular';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.contacts__mail-link {
+  display: inline-flex;
+  color: #CC9933;
+}
+
+.contacts__mail-text {
+  color: #C4C4C4;
+}
+
+.contacts__phone-link {
+  display: inline-flex;
+  color: #CC9933;
+}
+
+.contacts__route-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 213px;
+
+  font-family: 'MullerBold';
+  border-radius: 10px;
+}

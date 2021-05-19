@@ -1,0 +1,136 @@
+.specials__item-heading {
+  padding-bottom: 15px;
+  font-family: 'MullerBold';
+  text-align: left;
+  color: #fff;
+}
+
+.specials__item-price {
+  font-family: 'MullerRegular';
+  text-align: left;
+  color: #d1dbdc;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.specials__item-price-luxury {
+  font-family: 'MullerRegular';
+  text-align: left;
+  color: #d1dbdc;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.specials__list {
+  display: flex;
+}
+
+.specials__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-right: 23px;
+}
+
+.specials__item-heading-maldives {
+  width: 300px;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.specials__item-heading-crete {
+  width: 300px;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.specials__item-heading-luxury {
+  margin: 0;
+  margin-bottom: 12px;
+
+  font-family: 'MullerBold';
+  text-align: left;
+  color: #fff;
+  width: 300px;
+  height: 180px;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.specials__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.specials__item-more-text-luxury {
+  width: 100px;
+  margin-top: 45px;
+  margin-bottom: 0px;
+
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.specials__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding-left: 40px;
+  padding-top: 41px;
+  border-radius: 15px;
+}
+
+.specials__maldives-img {
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  width: 573px;
+
+  background-image: url("/img/specials/maldives.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.specials__crete-img {
+  display: flex;
+  flex-direction: column;
+  height: 260px;
+  width: 573px;
+
+  background-image: url("/img/specials/crete.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.specials__luxury-img {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 213px;
+  padding-bottom: 40px;
+  height: 540px;
+  width: 573px;
+
+  background-image: url("/img/specials/luxury.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.specials__item-more-text {
+  width: 100px;
+  margin-top: 46px;
+  margin-bottom: 45px;
+
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.specials__item-more-icon {
+  width: 12px;
+  height: 12px;
+  padding: 5px;
+  margin-top: 2px;
+}
