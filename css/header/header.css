@@ -61,7 +61,13 @@
   letter-spacing: 0em;
   text-align: left;
   color: #666666;
+  transition: 300ms;
 }
+
+.header__phone-number:hover {
+  color: #CC9933;
+}
+
 /*  */
 /* нижняя часть header */
 /*  */
@@ -106,6 +112,11 @@
   text-align: left;
   color: #CC9933;
 }
+
+.header__login-text:hover {
+  text-decoration: underline;
+}
+
 /*  */
 /* верхнее меню и блок с кнопками */
 /*  */
@@ -126,8 +137,43 @@
   text-align: left;
 }
 
-.header__nav-item a {
+.header__nav-link {
+  display: flex;
+}
+
+.header__nav-link {
+  transition: 100ms;
+}
+
+.header__nav-link {
   color: #666666;
+}
+
+.header__nav-link:hover {
+  transform-origin: center;
+  transform: scale(1.15);
+  /* will-change: transform; */
+}
+
+.header__nav-link:hover {
+  color: #CC9933;
+}
+
+.header__nav-link::after {
+  width: 40%;
+  left: 30%;
+  right: 30%;
+  bottom: -7px;
+  content:"";
+  display: inline;
+  position:absolute;
+  color: transparent;
+}
+
+.header__nav-link:hover::after {
+  transition: 700ms;
+  transition-delay: 50ms;
+  border-bottom: 1px solid #cc99337e;
 }
 
 .header__nav-item:not(:last-child) {
@@ -145,6 +191,7 @@
 }
 
 .header__want-btn {
+  display: flex;
   width: 107px;
   height: 42px;
   margin-right: 40px;
@@ -152,6 +199,7 @@
 }
 
 .header__back-call-btn {
+  display: flex;
   width: 177px;
   height: 42px;
   padding: 12.5px 15px 13px 19px;

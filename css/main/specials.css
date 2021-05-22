@@ -133,4 +133,11 @@
   height: 12px;
   padding: 5px;
   margin-top: 2px;
+  transition: 150ms;
+}
+
+.item__gold-text:hover .item__gold-icon {
+  transform: translateX(10px) rotate(45deg) scale(1.5);
+  /* transform: translateX(20px); */
+  transition: 150ms;
 }

@@ -91,6 +91,10 @@
   color: #CC9933;
 }
 
+.footer__terms-use-text:hover {
+  text-decoration: underline;
+}
+
 .footer__social-item {
   list-style-type: none;
 }
