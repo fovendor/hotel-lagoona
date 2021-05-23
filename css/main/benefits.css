@@ -158,7 +158,7 @@
 .benefits__element:hover .parking-svg-icon {
   -webkit-animation: sign-rotate 2s infinite;
   animation: sign-rotate 2s both infinite;
-  transform-origin: 12px;
+  transform-origin: 13px;
 }
 
 @keyframes sign-rotate {

@@ -183,6 +183,20 @@
   color: #fff;
 }
 
+.placement__img-9:hover .placement__view-all-link {
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 36px;
+  padding-left: 55px;
+  padding-right: 53px;
+  width: 374px;
+  height: 440px;
+}
+
+
+
 .placement__view-all-icon {
   width: 12px;
   height: 12px;
