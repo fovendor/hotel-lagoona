@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'MullerLight';
+  font-family: 'Muller';
   src: url('/fonts/MullerLight.woff2') format('woff2'),
     url('/fonts/MullerLight.woff') format('woff');
   font-display: swap;
@@ -7,7 +7,7 @@
   font-style: normal;
 }
 @font-face {
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
   src: url('/fonts/MullerRegular.woff2') format('woff2'),
     url('/fonts/MullerRegular.woff') format('woff');
   font-display: swap;
@@ -16,7 +16,7 @@
 }
 
 @font-face {
-  font-family: 'MullerMedium';
+  font-family: 'Muller';
   src: url('/fonts/MullerMedium.woff2') format('woff2'),
     url('/fonts/MullerMedium.woff') format('woff');
   font-display: swap;
@@ -25,7 +25,7 @@
 }
 
 @font-face {
-  font-family: 'MullerBold';
+  font-family: 'Muller';
   src: url('/fonts/MullerBold.woff2') format('woff2'),
     url('/fonts/MullerBold.woff') format('woff');
   font-display: swap;
@@ -51,7 +51,7 @@ a:focus {
   margin-left: 40px;
   margin-bottom: 19px;
 
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
   font-size: 40px;
   line-height: 40px;
   font-weight: 400;
@@ -64,7 +64,8 @@ a:focus {
   display: flex;
   margin: 0;
 
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
+  font-weight: 400;
   text-align: left;
   color: #FFCC66;
 }
@@ -80,7 +81,7 @@ a:focus {
   border: 1px solid #CC9933;
   border-radius: 10px;
 
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -109,7 +110,6 @@ a:focus {
 }
 
 .main__button:hover {
-  /* z-index: 1; */
   transition: 150ms;
   color: #fff;
   background: #CC9933;

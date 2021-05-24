@@ -55,7 +55,7 @@
   margin-left: 45px;
   margin-right: 46px;
 
-  font-family: 'MullerMedium';
+  font-family: 'Muller';
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
@@ -71,7 +71,7 @@
 .placement__row-center {
   margin-top: 15px;
 
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -81,7 +81,7 @@
 .placement__row-bottom {
   margin-top: 16px;
 
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -148,7 +148,7 @@
   justify-content: flex-end;
   margin: 0;
 
-  font-family: 'MullerMedium';
+  font-family: 'Muller';
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
@@ -185,17 +185,14 @@
 
 .placement__img-9:hover .placement__view-all-link {
   display: flex;
-  align-items: flex-end;
   margin: 0;
-  padding: 0;
+  padding-top: 384px;
   padding-bottom: 36px;
   padding-left: 55px;
   padding-right: 53px;
   width: 374px;
   height: 440px;
 }
-
-
 
 .placement__view-all-icon {
   width: 12px;
@@ -206,7 +203,10 @@
 
   border-top: 2px solid #fff;
   border-right: 2px solid #fff;
+
+  /* transform: translateY(35px); */
   transform: rotate(45deg);
+  transition: 300ms;
 }
 
 .placement__text {
@@ -225,7 +225,7 @@
 .placement__from-text {
   margin-right: 4px;
 
-  font-family: 'MullerLight';
+  font-family: 'Muller';
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -235,7 +235,7 @@
 .placement__price-text {
   margin-right: 4px;
 
-  font-family: 'MullerBold';
+  font-family: 'Muller';
   font-weight: 400;
   font-size: 20px;
   line-height: 16px;
@@ -245,7 +245,7 @@
 .placement__slash {
   margin-right: 4px;
 
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
@@ -253,7 +253,7 @@
 }
 
 .placement__night {
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
