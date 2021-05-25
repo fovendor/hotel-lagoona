@@ -68,6 +68,7 @@ a:focus {
   font-weight: 400;
   text-align: left;
   color: #FFCC66;
+  z-index: 1000;
 }
 
 .item__gold-icon {
