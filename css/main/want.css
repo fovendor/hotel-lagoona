@@ -14,8 +14,8 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 0px 45px 70px 45px;
-  border-radius: 15px;
 
+  border-radius: 15px;
   background-color: #E9E9E9;
 }
 
@@ -27,8 +27,8 @@
   height: 106px;
   padding: 28px 28px 28px 28px;
 
-  background: #fff;
   border-radius: 15px;
+  background: #fff;
 }
 
 ::placeholder {
@@ -87,9 +87,9 @@
   min-width: 50px;
 
   border: 0;
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
+  font-weight: 400;
   font-size: 16px;
-  font-style: normal;
   line-height: 16px;
   text-align: left;
   color: #000;
@@ -100,9 +100,9 @@
   min-width: 50px;
 
   border: 0;
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
+  font-weight: 400;
   font-size: 16px;
-  font-style: normal;
   line-height: 16px;
   text-align: left;
   color: #000;
@@ -113,9 +113,9 @@
 }
 
 .want__label {
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
+  font-weight: 400;
   font-size: 12px;
-  font-style: normal;
   line-height: 12px;
   text-align: left;
   color: #000;

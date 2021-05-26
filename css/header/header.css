@@ -53,15 +53,20 @@
 .header__phone-number {
   margin-left: 40px;
 
-  font-family: 'MullerMedium';
-  font-size: 20px;
-  font-style: normal;
+  font-family: 'Muller';
   font-weight: 500;
+  font-size: 20px;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
   color: #666666;
+  transition: 300ms;
 }
+
+.header__phone-number:hover {
+  color: #CC9933;
+}
+
 /*  */
 /* нижняя часть header */
 /*  */
@@ -97,15 +102,19 @@
   padding-bottom: 0;
   margin-left: 7px;
 
-  font-family: 'MullerRegular';
-  font-size: 16px;
-  font-style: normal;
+  font-family: 'Muller';
   font-weight: 400;
+  font-size: 16px;
   line-height: 16px;
   letter-spacing: 0em;
   text-align: left;
   color: #CC9933;
 }
+
+.header__login-text:hover {
+  text-decoration: underline;
+}
+
 /*  */
 /* верхнее меню и блок с кнопками */
 /*  */
@@ -117,17 +126,51 @@
   align-items: center;
 
   border-right: 1px solid #E1E1E1;
-  font-family: 'MullerRegular';
-  font-size: 16px;
-  font-style: normal;
+  font-family: 'Muller';
   font-weight: 400;
+  font-size: 16px;
   line-height: 16px;
   letter-spacing: 0em;
   text-align: left;
 }
 
-.header__nav-item a {
+.header__nav-link {
+  display: flex;
+}
+
+.header__nav-link {
+  transition: 100ms;
+}
+
+.header__nav-link {
   color: #666666;
+}
+
+.header__nav-link:hover {
+  transform-origin: center;
+  transform: scale(1.15);
+  /* will-change: transform; */
+}
+
+.header__nav-link:hover {
+  color: #CC9933;
+}
+
+.header__nav-link::after {
+  width: 40%;
+  left: 30%;
+  right: 30%;
+  bottom: -7px;
+  content:"";
+  display: inline;
+  position:absolute;
+  color: transparent;
+}
+
+.header__nav-link:hover::after {
+  transition: 700ms;
+  transition-delay: 50ms;
+  border-bottom: 1px solid #cc99337e;
 }
 
 .header__nav-item:not(:last-child) {
@@ -145,6 +188,7 @@
 }
 
 .header__want-btn {
+  display: flex;
   width: 107px;
   height: 42px;
   margin-right: 40px;
@@ -152,6 +196,7 @@
 }
 
 .header__back-call-btn {
+  display: flex;
   width: 177px;
   height: 42px;
   padding: 12.5px 15px 13px 19px;

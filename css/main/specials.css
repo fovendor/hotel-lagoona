@@ -1,20 +1,25 @@
 .specials__item-heading {
   padding-bottom: 15px;
-  font-family: 'MullerBold';
+  font-family: 'Muller';
+  font-weight: 700;
   text-align: left;
   color: #fff;
+  z-index: 1000;
 }
 
 .specials__item-price {
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
+  font-weight: 400;
   text-align: left;
   color: #d1dbdc;
   font-size: 20px;
   line-height: 20px;
+  z-index: 1000;
 }
 
 .specials__item-price-luxury {
-  font-family: 'MullerRegular';
+  font-family: 'Muller';
+  font-weight: 400;
   text-align: left;
   color: #d1dbdc;
   font-size: 30px;
@@ -49,7 +54,8 @@
   margin: 0;
   margin-bottom: 12px;
 
-  font-family: 'MullerBold';
+  font-family: 'Muller';
+  font-weight: 700;
   text-align: left;
   color: #fff;
   width: 300px;
@@ -82,6 +88,34 @@
   padding-left: 40px;
   padding-top: 41px;
   border-radius: 15px;
+}
+
+.specials__gradient {
+  display: inline-block;
+	position: relative;
+	line-height: 0;
+}
+
+.gradient::after {
+	content: "";
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+}
+
+.specials__gradient:hover::after {
+  display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+  content: "";
+	background: transparent;
+	background-image: linear-gradient(to right, #304059c8, #35415300);
+  opacity: 1;
+  border-radius: 15px;
+  transition: 150ms;
 }
 
 .specials__maldives-img {
@@ -133,4 +167,10 @@
   height: 12px;
   padding: 5px;
   margin-top: 2px;
+  transition: 150ms;
+}
+
+.item__gold-text:hover .item__gold-icon {
+  transform: translateX(10px) rotate(45deg) scale(1.5);
+  transition: 150ms;
 }

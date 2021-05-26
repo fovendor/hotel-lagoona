@@ -45,9 +45,9 @@
   padding-top: 25px;
 
   border-bottom: 1px solid #ccc;
-  font-family: 'MullerBold';
-  font-size: 20px;
+  font-family: 'Muller';
   font-weight: 700;
+  font-size: 20px;
   line-height: 20px;
   text-align: left;
 }
@@ -62,9 +62,9 @@
   padding-top: 25px;
 
   border-bottom: 1px solid #ccc;
-  font-family: 'MullerRegular';
-  font-size: 16px;
+  font-family: 'Muller';
   font-weight: 400;
+  font-size: 16px;
   line-height: 24px;
   text-align: left;
 }
@@ -72,6 +72,10 @@
 .contacts__mail-link {
   display: inline-flex;
   color: #CC9933;
+}
+
+.contacts__mail-link:hover {
+  text-decoration: underline;
 }
 
 .contacts__mail-text {
@@ -83,6 +87,10 @@
   color: #CC9933;
 }
 
+.contacts__phone-link:hover {
+  text-decoration: underline;
+}
+
 .contacts__route-btn {
   display: flex;
   align-items: center;
@@ -90,6 +98,7 @@
   height: 70px;
   width: 213px;
 
-  font-family: 'MullerBold';
+  font-family: 'Muller';
+  font-weight: 700;
   border-radius: 10px;
 }
