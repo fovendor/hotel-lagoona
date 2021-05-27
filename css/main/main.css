@@ -47,6 +47,8 @@
   --element-bg-color: #fff;
 }
 
+    /*  */
+
 html {
   font-family: sans-serif;
   background-color: var(--main-bg-page-color);
