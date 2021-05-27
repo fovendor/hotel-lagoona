@@ -64,7 +64,7 @@
 }
 
 .header__phone-number:hover {
-  color: #CC9933;
+  color: var(--main-theme-color);
 }
 
 /*  */
@@ -79,7 +79,7 @@
   padding: 0px 43px 0px 46px;
 
   border-right: 1px solid #E1E1E1;
-  background-color: #fff;
+  background-color: var(--element-bg-color);
   border-radius: 15px;
 }
 

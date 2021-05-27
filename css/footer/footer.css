@@ -60,7 +60,7 @@
   font-family: 'Muller';
   font-weight: 300;
   font-size: 16px;
-  color: #CC9933;
+  color: var(--main-theme-color);
 }
 
 .footer__mail-links {
@@ -71,7 +71,7 @@
   font-family: 'Muller';
   font-weight: 300;
   font-size: 16px;
-  color: #CC9933;
+  color: var(--main-theme-color);;
 }
 
 .footer__adress-text {
@@ -88,7 +88,7 @@
   font-family: 'Muller';
   font-weight: 300;
   font-size: 16px;
-  color: #CC9933;
+  color: var(--main-theme-color);
 }
 
 .footer__terms-use-text:hover {

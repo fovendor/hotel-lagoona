@@ -33,9 +33,23 @@
   font-style: normal;
 }
 
+:root {
+    /* main color of elements on the page */
+  --main-theme-color: #CC9933;
+  --main-bg-page-color: #f1f1f1;
+  --section-heading-color: #333333;
+  --nav-link-color: #666666;
+  --btn-link-color: #CC9933;
+  --login-link-color: #CC9933;
+  --focus-outline-color: #338cccc6;
+  --main-text-color: #000;
+  --secondary-text-color: #a0a0a0;
+  --element-bg-color: #fff;
+}
+
 html {
   font-family: sans-serif;
-  background-color: #f1f1f1;
+  background-color: var(--main-bg-page-color);
 }
 
 a {
@@ -43,7 +57,7 @@ a {
 }
 
 a:focus {
-  outline: 2px solid #338cccc6;
+  outline: 2px solid var(--focus-outline-color);
 }
 
 .section-heading {
@@ -57,7 +71,7 @@ a:focus {
   font-weight: 400;
   letter-spacing: 0em;
   text-align: left;
-  color: #333333;
+  color: var(--section-heading-color);
 }
 
 .item__gold-text {
@@ -72,14 +86,14 @@ a:focus {
 }
 
 .item__gold-icon {
-  border-top: 2px solid #FFCC66;
-  border-right: 2px solid #FFCC66;
+  border-top: 2px solid var(--main-theme-color);
+  border-right: 2px solid var(--main-theme-color);
   transform: rotate(45deg);
 }
 
 .main__button {
   position: relative;
-  border: 1px solid #CC9933;
+  border: 1px solid var(--btn-link-color);
   border-radius: 10px;
 
   font-family: 'Muller';
@@ -101,7 +115,7 @@ a:focus {
   display: inline;
   position: absolute;
   transition: 80ms;
-  background: #cc9933;
+  background: var(--btn-link-color);
 }
 
 .main__button:hover::before,
@@ -113,7 +127,7 @@ a:focus {
 .main__button:hover {
   transition: 150ms;
   color: #fff;
-  background: #CC9933;
+  background: var(--btn-link-color);
   border: 1px solid transparent;
 }
 
