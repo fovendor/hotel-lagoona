@@ -14,7 +14,7 @@
   padding: 44px 44px 46px 46px;
   border-radius: 15px;
 
-  background-color: #fff;
+  background-color: var(--element-bg-color);
 }
 
 .contacts__right {

@@ -35,7 +35,7 @@
   min-height: 330px;
 
   border-radius: 15px;
-  background-color: #fff;
+  background-color: var(--element-bg-color);
 }
 
 .servise__item:nth-child(even) {
@@ -103,7 +103,7 @@
   margin-top: 7px;
   width: 402px;
 
-  color: #000;
+  color: var(--main-text-color);
 }
 
 .service__item-more-icon {

@@ -44,7 +44,7 @@
   min-height: 440px;
 
   border-radius: 15px;
-  background-color: #fff;
+  background-color: var(--element-bg-color);
 }
 
 .placement__info {
@@ -59,7 +59,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
-  color: #000;
+  color: var(--main-text-color);
 }
 
 .placement__row-top {
@@ -75,7 +75,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: #000;
+  color: var(--main-text-color);
 }
 
 .placement__row-bottom {
@@ -152,7 +152,7 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
-  color: #000;
+  color: var(--main-text-color);
 }
 
 .placement__img-9 {
@@ -229,7 +229,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: #a0a0a0;
+  color: var(--secondary-text-color);
 }
 
 .placement__price-text {
@@ -239,7 +239,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 16px;
-  color: #000;
+  color: var(--main-text-color);
 }
 
 .placement__slash {
@@ -249,7 +249,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: #000;
+  color: var(--main-text-color);
 }
 
 .placement__night {
@@ -257,7 +257,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 16px;
-  color: #000;
+  color: var(--main-text-color);
 }
 
 .placement__star-icon:not(:last-child) {

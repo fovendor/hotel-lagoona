@@ -37,7 +37,7 @@
 
   cursor: pointer;
   border-radius: 15px;
-  background-color: #fff;
+  background-color: var(--element-bg-color);
   transition: 150ms;
 }
 
