@@ -115,7 +115,7 @@
 	background-image: linear-gradient(to right, #304059c8, #35415300);
   opacity: 0;
   border-radius: 15px;
-  transition: all 150ms easy;
+  transition: 150ms ease;
 }
 
 .specials__gradient:hover::after {
